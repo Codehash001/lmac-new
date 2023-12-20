@@ -3,7 +3,7 @@ const RPC_URL = process.env.NEXT_PUBLIC_ALCHEMY_RPC_URL
 const config = {
   title: 'Dapp',
   description: 'minting Dapp',
-  contractAddress: process.env.NEXT_PUBLIC_CONTRACT_ADDRESS,
+  contractAddress: '0x3B45542f6C97FE7f7aA3BB055c95e93B2c0437ED',
 }
 
 const onboardOptions = {

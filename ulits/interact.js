@@ -65,12 +65,12 @@ export const PublicMint = async (mintAmount) => {
   
   const ExceededMaxMint = MintableAmount < mintingAmount
   console.log('ExceededMaxMint',ExceededMaxMint)
-    if (ExceededMaxMint) {
-      return {
-        success: false,
-        status: 'Exceeded Max Mint Amount'
-      }
-     } 
+    // if (ExceededMaxMint) {
+    //   return {
+    //     success: false,
+    //     status: 'Exceeded Max Mint Amount'
+    //   }
+    //  } 
 
   const nonce = await web3.eth.getTransactionCount(
     window.ethereum.selectedAddress,
